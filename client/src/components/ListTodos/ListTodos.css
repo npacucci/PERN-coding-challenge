@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header__title {
+    font-size: 1.5em;
+    color: dodgerblue;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+    padding: 15px;
+    border: 1px solid rgba(211, 211, 211, 0.4);;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.item-odd {
+    background-color: lightseagreen;
+}
+
+.item-even {
+    background-color: dodgerblue;
+}
+
+.item__content {
+    display: flex;
+    align-items: center;
+    flex: 1 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 20px;
+}
+
+.item__controls {
+
+}
